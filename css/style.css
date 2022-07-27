@@ -1,0 +1,48 @@
+* {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.navbar {
+	background-color: #0c0c0c;
+}
+
+.nav-link {
+	color: #fbfefe;
+}
+
+.material-symbols-sharp {
+	color: white;
+	margin-right: 3px;
+}
+
+.dropdown-item {
+	background-color: white;
+}
+
+.btn {
+	color: #fbfefe;
+	outline: invert;
+	outline-color: #fbfefe;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #fbfefe;
+}
+
+.rounded-circle {
+	margin-top: 21px;
+	border-radius: 50% !important;
+}
+
+/* .row { 
+  background-color: #0c0c0c;
+  color: #fbfefe;
+  text-align: center;
+} */
+
+/*.cantainer .marketing{ 
+  background-color: black;
+ } */

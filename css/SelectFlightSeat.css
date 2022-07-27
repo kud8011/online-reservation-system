@@ -1,0 +1,246 @@
+.container {
+    /* transform: rotate(270deg); */
+    perspective: 1000px;
+    margin-bottom: 30px;
+    /* border-left: 10px solid rgb(235, 229, 229); */
+    /* border-right: 10px solid rgb(248, 239, 239); */
+    /* transform: rotate; */
+    margin-top: 54px;
+  }
+
+  .seat.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8b8c1;
+    height: 47px;
+    width: 27px;
+    color: aliceblue;
+    margin: 4px;
+    font-size: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+  .seats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8b8c1;
+    height: 47px;
+    width: 27px;
+    /* color: aliceblue; */
+    margin: 4px;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .movie-container select {
+    background-color: #e2d6d6;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  
+
+  .seats.selected {
+    background: green;
+  }
+
+  .seats.sold {
+    background: red;
+    cursor: default;
+  }
+
+  .seat.info.sold {
+    background: red;
+    cursor: default;
+  }
+
+  .seat.info.selected {
+    background: green;
+    cursor: default;
+  }
+
+  .seats:nth-of-type(4) {
+    margin-right: 86px;
+  }
+   
+  .seats:nth-last-of-type(2) {
+    margin-left: 5px;
+  }
+
+  .seats:not(.sold):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+  .showcase .seat:not(.sold):hover {
+    cursor: default;
+    transform: scale(1);
+  }
+
+  .showcase {
+    /* background: rgba(0, 0, 0, 0.1); */
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+  .showcase{
+    position: absolute;
+    left: 799px;
+    bottom: 352px;
+  }
+
+.movie-container {
+    position: absolute;
+    right: 490px;
+    top: 261px;
+}
+
+  .showcase li small {
+    margin-left: 2px;
+  }
+
+  .row {
+    margin-left: 12px;
+    display: flex;
+  }
+
+  .dot {
+    position: relative;
+    left: 227px;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dri {
+    /* border-bottom:2px solid  black; */
+    position: relative;
+    left: 199px;
+
+  }
+
+
+  .postoS {
+    min-height: 40px;
+    max-width: 217px;
+    margin-top: 0.2rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    left: 12px;
+   /*  bottom: 156px; */
+    background: rgba(188, 184, 184, 0.3);
+    border-radius: 5px;
+  }
+
+  .rowNumb {
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 0.1;
+    color: #0b0b0b;
+    position: relative;
+    left: -42px;
+    top: 5px;
+    transition: 0.5s linear;
+  } 
+
+  .rowNumb:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  /* #h{
+  border-top: 2px solid;
+} */
+  #btn {
+   position: relative;
+    right: 247px;
+    bottom: -88px;
+    background-color: #0f1d24;
+    color: #f8f9fa;
+    width: 114px;
+    border-radius: 9px;
+    margin-top: 40px;
+    height: 39px;
+    font-family: "Lato", sans-serif;
+  }
+
+  #btn:hover {
+    background-color: #242333;
+    color: whitesmoke;
+
+  }
+
+  .btn {
+    float: right;
+  }
+
+  .checkOutAreaOne {
+    grid-area: areaOne;
+  }
+
+  .checkoutTotal {
+    /* display: inline-block;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+   position: absolute;
+    left: 365px;
+    bottom: 54px;
+  }
+
+  .total {
+    display: inline-block;
+    /* min-width: 20px; */
+    background: rgba(171, 168, 168, 0.3);
+    text-align: center;
+    width: 118px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 1.1rem;
+  }
+
+  .count {
+    display: inline-block;
+    /* min-width: 20px; */
+    background: rgba(171, 168, 168, 0.3);
+    text-align: center;
+    width: 118px;
+    height: 40px;
+    border-radius: 6px;
+  }
+
+  .checkOutAreaOne p {
+    position: relative;
+    left: 427px;
+    bottom: 115px;
+    ;
+  }

@@ -1,0 +1,159 @@
+body {
+  background: #9f9e9e;
+  /* background-image: linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% ); */
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+
+}
+
+ .nav ul {
+  position: absolute;
+  left: 250px;
+  width: 200px;
+  top: 0;
+  background-color: #2a2929;
+  border-radius: 5px;
+  display: none;
+  color: white; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0,.1);
+list-style: none;
+}
+.nav ul ul{
+  background-color: black;
+  
+}
+.page-content {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  transition: all 0.4s;
+}
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed #fff;
+}
+
+.bg-white {
+  background-color: rgb(36, 34, 34) !important;
+}
+
+.text-uppercase {
+  letter-spacing: 0.1em;
+}
+
+.text-gray {
+  color: #aaa;
+}
+
+.nav .nav-link {
+  text-transform: capitalize;
+  color: white;
+}
+
+.nav-link:hover {
+  background: #f3f2f2;
+  color: black;
+  padding-left:15px;
+}
+
+.separator {
+  margin: 4rem 0;
+  border-bottom: 1px dashed rgb(15, 15, 15);
+}
+
+.text-primary {
+  color: #a3a3a7 !important;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+
+  #sidebar.active {
+    margin-left: 0;
+  }
+
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}
+
+/* .dropdown-menu{
+  background-color:rgb(241, 237, 237)
+}
+.dropdown-item:active,.dropdown-item:focus,.dropdown-item:hover{
+  background:#f3f2f2;
+  color: black;
+  } */
+ /* ul .dropdown li {
+  position: relative;
+   background-color: black;
+  margin-bottom: 10px;
+ 
+}i
+ul .dropdown li a{
+  text-decoration:none ;
+color: #f3f2f2;
+}
+
+ul .dropdown li:hover{
+  padding-left: 15px;
+  background-color: #f3f2f2;
+  color: #131313;
+}
+
+ ul .dropdown:hover ul {
+  display: initial;
+
+} */
+
+.lead{
+  position: relative;
+  left: 432px;
+}
+a:hover{
+color: #131313;
+}
+
+
+
+
+
+/* tr{
+  align-items: center;
+}
+
+.table th tr{
+  font-size: 14px;
+  font-size: 600px;
+  letter-spacing: 0.35px;
+  padding: 12px;
+} */
